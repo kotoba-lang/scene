@@ -6,7 +6,7 @@
 
 (deftest namespace-loads
   (testing "the restored CLJC namespace loads"
-    (is (some? (the-ns 'scene)))))
+    (is (some? (find-ns 'scene)))))
 
 ;; mirrors `keyword_keys_bare_and_namespaced`
 (deftest keyword-keys-bare-and-namespaced
