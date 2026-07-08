@@ -16,6 +16,7 @@
   a parsed-value wrapper type.
 
   Zero-dep portable CLJC."
+  (:refer-clojure :exclude [num])
   (:require [clojure.edn :as edn]))
 
 (defn kw-key
