@@ -20,7 +20,7 @@ authority for the `:scene-domains` provider family).
 ## Status
 
 Restored — ported from the original 103-line Rust `lib.rs`, with all 5 original Rust
-unit tests mirrored 1:1 in `test/scene_test.cljc` (+1 smoke test) — 6 tests / 19
+unit tests mirrored 1:1 in `test/scene_test.cljk` (+1 smoke test) — 6 tests / 19
 assertions, 0 failures. Pure data + pure functions throughout; no IO/GPU.
 
 ## Develop
